@@ -1,27 +1,30 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+  TravelMate Global Styles
+  Crafted for bold, adventurous travel vibes.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #181F2A;
+  --foreground: #FFD166;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #181F2A 0%, #23272F 60%, #FF6B35 100%);
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Space Grotesk', 'Poppins', 'Segoe UI', 'Helvetica Neue', Arial, 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 * {
@@ -35,8 +38,39 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@keyframes neon-glow {
+  0%, 100% {
+    box-shadow: 0 0 32px 8px #FFD166, 0 0 64px 16px #FF6B35;
+    border-color: #FFD166;
   }
+  50% {
+    box-shadow: 0 0 48px 16px #FF6B35, 0 0 96px 32px #FFD166;
+    border-color: #FF6B35;
+  }
+}
+
+.animate-neon-glow {
+  animation: neon-glow 2.5s ease-in-out infinite alternate;
+}
+
+.neon-text-glow {
+  text-shadow:
+    0 0 8px #FFD166,
+    0 0 16px #FF6B35,
+    0 0 2px #fff;
+}
+
+.neon-text-glow-soft {
+  text-shadow:
+    0 0 4px #FFD166,
+    0 0 8px #FF6B35;
+}
+
+.neon-btn-glow {
+  box-shadow: 0 0 12px 2px #FF6B35, 0 0 24px 4px #FFD166;
+  transition: box-shadow 0.2s;
+}
+
+.neon-btn-glow:hover {
+  box-shadow: 0 0 24px 6px #FFD166, 0 0 48px 12px #FF6B35;
 }
