@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✈️ Travelmate – Your Personal Travel Itinerary Planner
 
-## Getting Started
+A beautiful, full-stack travel planning web app built with **Next.js**, **Tailwind CSS**, and **Firebase**. 
 
-First, run the development server:
+Travelmate allows users to create, manage, and save custom travel itineraries based on destination, activity, and trip type.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🔐 User Authentication (Firebase Auth)
+- 🗺️ Add detailed itineraries with:
+  - Title, Destination, Trip Type (Adventure / Leisure / Work)
+  - Activities
+  - Travel Dates
+  - Images (Firebase Storage)
+- 🔍 Search itineraries by destination or activity
+- ❤️ Favorite itineraries
+- 🎨 Stunning UI with Tailwind CSS and Framer Motion
+- 🚀 Deployed on Firebase Hosting
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: Next.js (App Router), Tailwind CSS, Framer Motion
+- **Backend**: Firebase (Auth, Firestore, Storage)
+- **Deployment**: Firebase Hosting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+> _Add 2–3 clean screenshots of your dashboard, create-itinerary page, and overall UI._
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔗 Live Demo
+
+👉 [Click here to try Travelmate live](https://your-firebase-deployed-url.com)
+
+---
+
+## 🧑‍💻 Built By
+
+**Ebby [Your Full Name]**  
+Frontend & Backend Engineer | Passionate about clean UI and smart architecture
+
+---
+
