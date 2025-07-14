@@ -37,7 +37,7 @@ Travelmate allows users to create, manage, and save custom travel itineraries ba
 
 ## 🔗 Live Demo
 
-👉 [Click here to try Travelmate live](https://your-firebase-deployed-url.com)
+👉 [Click here to try Travelmate live] : https://travel-mate-six.vercel.app/
 
 ---
 
